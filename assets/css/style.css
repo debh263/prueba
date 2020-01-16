@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo {
+  background-image: url("../img/foto.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.fondo-text {
+  text-align: center;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #75B9EE;
+}
+
+.bg_color {
+  background-color: #660066;
+}
+span {
+  font-family: 'Permanent Marker', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
